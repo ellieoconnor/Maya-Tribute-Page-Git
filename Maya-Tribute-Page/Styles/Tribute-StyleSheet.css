@@ -1,0 +1,232 @@
+* {
+    border: 1px solid rgb(131, 131, 131);
+} 
+
+body {
+    border: 5px solid black;
+    font-family: Raleway, sans-serif;
+    background-color: wheat;
+    max-width: 1280px;
+    max-height: 100%;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+img {
+    max-width: 80%;
+    height: fit-content;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: Raleway, Georgia, 'Times New Roman';
+    font-weight: bold;
+    color:beige;
+}
+
+h2 {
+    text-align: left;
+    font-size: 40px;
+    font-family: Raleway, Georgia, 'Times New Roman';
+}
+
+dl {
+    list-style-position: inside;
+}
+
+header {
+    padding: 20px;
+    margin: 20px;
+}
+/* making the background opaque.
+
+.background {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Images/floral-2.jpeg');
+    background-size: cover;
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+}
+
+*/
+
+#banner {
+    background-image: url("../Images/Maya-Drawn.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    margin: 17px;
+}
+
+h1.content {
+    width: 700px;
+    text-align: center;
+    padding: 5px;
+}
+
+.content, h2 {
+    color:darkgreen;
+    text-align: center;
+    padding: 10px;
+}
+
+h1#title {
+    text-align: center;
+}
+
+#nav{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(62, 71, 80);
+    padding: 10px;
+    margin: 20px;
+}
+
+.nav-bar:hover {
+    color: papayawhip;
+}
+
+ul, li {
+    padding: 5px;
+    margin: 5px;
+}
+
+#main {
+    width: 950px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.bio {
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid blueviolet;
+}
+
+#img-div {
+    border: 3px solid green;
+    padding: 2px;
+    margin: 5px 10px;
+}
+
+#image {
+    width: 400px;
+    height: 500px;
+}
+
+p, #img-div {
+    font-size: 14px;
+    padding: 3px;
+    margin: 10px;
+}
+
+h3 {
+    padding: 0 20px 0 20px;
+    margin: 0px 30px 5px 30px;
+}
+
+.heading {
+    text-align: center;
+    font-family: Raleway, Georgia, 'Times New Roman';
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+}
+
+p#tribute-info {
+    text-align: center;
+    padding: 10px;
+}
+
+div#timeline {
+    text-align: left;
+}
+
+dt, dd{
+    padding: 5px;
+}
+
+img, #image {
+    text-align: center;
+    margin: 20px;
+}
+
+p, #tribute-info {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman';
+}
+
+#tribute-info {
+    text-align: justify;
+}
+
+#tribute-link {
+    font-size: 14px;
+}
+
+#info-link {
+    font-size: 14px;
+}
+
+div#quote {
+    border: 1px dotted skyblue;
+    line-height: 25px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px 5px 10px 5px;
+    margin: 20px;
+}
+
+#quote, p {
+    text-align: center;
+    font-size: 14px;
+}
+
+p.maya-quote {
+    font-size: 18px;
+    padding: 20px 8px 20px 8px;
+}
+
+footer#footer {
+    width: 100%;
+    position: relative;
+    padding: 5px;
+}
+
+p.info {
+    padding: 5px 10px 5px 10px;
+}
+
+#tribute-link:hover {
+    color: lightslategray;
+}
+#info-link:hover {
+    color: lightslategray;
+}
+

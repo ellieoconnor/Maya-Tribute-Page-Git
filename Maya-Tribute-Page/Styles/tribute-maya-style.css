@@ -1,0 +1,125 @@
+body {
+    font-size: small;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    line-height: 1.6em;
+    position: relative;
+}
+
+main {
+    position:relative;
+    padding: 0px 20px 20px;
+    margin: auto;
+
+    text-align: justify;
+}
+
+header {
+    /*
+    background: url(../Images/angelou-older-back.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    */
+    height: 450px;
+    padding: 25px 25px 25px 15px;
+    margin: auto;
+    position: relative;
+}
+
+h1, h2 {
+    color: #f2c5e0;
+    position: relative;
+}
+
+h1 {
+    font-size: 3.2em;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p, h3, ul, img, figcaption {
+    position: relative;
+}
+
+ul {
+    position: relative;
+}
+
+figcaption {
+    color: lightslategrey;
+    font-weight: 600;
+}
+
+.funfact {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: center;
+    border: thin dashed lavenderblush;
+    background-color: #967bb6;
+
+    padding: 20px;
+    padding-left: 50px;
+    margin: 35px;
+    float: right;
+
+    background-image: url(../Images/background\ copy.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#maya-mom-img {
+    margin-right: 10px;
+    margin-left: 20px;
+
+    text-align: center;
+    
+    float: right;
+}
+
+.dates {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.book {
+    border: thin solid #967bb6;
+
+    text-align: center;
+
+    padding: 20px;
+    margin-right: 900px;
+}
+header::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: url(../Images/angelou-older-back.jpeg) no-repeat center center;
+    background-size: cover;
+    opacity: 0.75;
+}
+main::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(../Images/floral-2.jpeg);
+    opacity: 0.15;
+}
